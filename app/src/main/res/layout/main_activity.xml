@@ -23,14 +23,17 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
+            style="@style/JokeButtonStyle"
             android:id="@+id/getJokesButton"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_margin="20dp"
-            android:text="Get jokes"
+            android:text="@string/joke_button_text"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="20dp" />
+            />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">dadJokeApp</string>
     <string name="joke_csv_file">dad-a-base.csv</string>
+    <string name="joke_button_text">Get jokes</string>
 </resources>
