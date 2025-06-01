@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="JokeTableView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:maxWidth">400dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="JokeTableRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:maxWidth">400dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:weightSum">1</item>
+    </style>
+
+    <style name="JokeTextViewStyle">
+        <item name="android:maxWidth">400dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+
+</resources>
